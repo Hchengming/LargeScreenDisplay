@@ -1,17 +1,19 @@
 <template>
-  <div id="app">
-    <router-view />
-  </div>
+	<div id="app">
+		<router-view />
+	</div>
 </template>
 
 <script>
-export default {
-  name: 'App'
-}
+	export default {
+		name: 'App'
+	}
 </script>
 
 <style>
-#app {
-  height: 100vh;
-}
+	@import url("../static/css/index.css");
+
+	#app {
+		height: 100vh;
+	}
 </style>
