@@ -66,30 +66,50 @@ export const mixinData = {
 				size: 12,
 				width: '',
 				position: null,
-				
+
 			},
 			fontWeightOptions: [{
 				value: 'normal',
 				label: 'normal'
-			},{
+			}, {
 				value: 'bold',
 				label: 'bold'
-			},{
+			}, {
 				value: 'bolder',
 				label: 'bolder'
-			},{
+			}, {
 				value: 'lighter',
 				label: 'lighter'
 			}],
 			fontPositionOptions: [{
 				value: 'left',
 				label: '左对齐'
-			},{
+			}, {
 				value: 'right',
 				label: '右对齐'
-			},{
+			}, {
 				value: 'center',
 				label: '居中'
+			}],
+			toolData: {
+				scaleNum: 100,
+				resolution: ''
+			},
+			resolutionOptions: [{
+				value: 'auto',
+				label: 'auto'
+			}, {
+				value: [800, 600],
+				label: '800 * 600'
+			}, {
+				value: [1024, 768],
+				label: '1024 * 768'
+			}, {
+				value: [1366, 768],
+				label: '1366 * 768'
+			}, {
+				value: [1920, 1080],
+				label: '1920 * 1080'
 			}]
 		}
 	}
