@@ -23,9 +23,9 @@
 
 <script>
 	import { mixinsData } from './mixisData.js'
-	import BasicConfig from '@/components/bigScreenShow/chartComponents/BasicConfig/index.vue'
-	import DataConfig from '@/components/bigScreenShow/chartComponents/DataConfig/index.vue'
-	import EventConfig from '@/components/bigScreenShow/chartComponents/EventConfig/index.vue'
+	import BasicConfig from './BasicConfig/index.vue'
+	import DataConfig from './DataConfig/index.vue'
+	import EventConfig from './EventConfig/index.vue'
 	export default {
 		name: 'bar-chart',
 		mixins: [mixinsData],
@@ -41,23 +41,3 @@
 		}
 	}
 </script>
-
-<style lang="scss" scoped>
-	.operate-list {
-		display: flex;
-		height: 40px;
-		line-height: 40px;
-	
-		.operate-item {
-			flex: 1;
-			text-align: center;
-			cursor: pointer;
-			border-top: 2px solid transparent;
-		}
-	
-		.active {
-			border-color: #409EFF;
-			color: #409EFF;
-		}
-	}
-</style>

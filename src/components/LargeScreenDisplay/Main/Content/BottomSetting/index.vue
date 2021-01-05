@@ -54,31 +54,3 @@
 	}
 </script>
 
-<style lang="scss" scoped>
-	.content-bottom-tool {
-		position: absolute;
-		left: 0;
-		right: 0;
-		height: 40px;
-		line-height: 40px;
-		background-color: #404040;
-		padding: 0 20px;
-		font-size: 14px;
-	
-		.el-input-number {
-			width: 60px;
-		}
-	
-		.el-select {
-			width: 120px;
-		}
-	
-		.tool-left {
-			float: left;
-		}
-	
-		.tool-right {
-			float: right;
-		}
-	}
-</style>

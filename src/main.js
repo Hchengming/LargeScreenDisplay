@@ -16,8 +16,8 @@ import echarts from 'echarts'
 Vue.prototype.$echarts = echarts
 
 // 全局注册可拖动Dialog指令
-import elDragDialog from './utils/el-drag-dialog/index'
-Vue.use(elDragDialog)
+// import elDragDialog from './utils/el-drag-dialog/index'
+// Vue.use(elDragDialog)
     /* eslint-disable no-new */
 new Vue({
     el: '#app',
