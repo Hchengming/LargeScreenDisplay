@@ -10,8 +10,8 @@
 	}
 </script>
 
-<style>
-	@import url("../static/css/index.css");
+<style lang="scss">
+	@import url("../static/css/index.scss");
 
 	#app {
 		height: 100vh;

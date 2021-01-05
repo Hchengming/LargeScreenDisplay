@@ -1,0 +1,43 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+ ul {
+	 list-style: none;
+ }
+ .clearfix::after {
+  content:" ";
+  display:block;
+  clear:both;
+ }input {
+	outline: none;
+	padding: 4px 10px;
+}
+ .el-form-item__label {
+	text-align: left;
+	color: #eee;
+}
+
+ .el-color-picker {
+	top: 50%;
+	transform: translateY(-50%);
+}
+.el-color-picker__trigger {
+	border: none;
+}
+.el-slider__bar,
+.el-slider__runway {
+	height: 2px;
+}
+.el-slider__button-wrapper {
+	top: -17px;
+}
+.el-slider__button {
+		border-radius: 0;
+		width: 8px;
+		height: 8px;
+		border-width: 1px;
+}
+.w100 {
+	width: 100%;
+}
